@@ -5,30 +5,31 @@
     <title>web1 - dentist</title>
     <meta charset="utf-8">
 </head>
-
+<link rel="stylesheet" href="style.css">
 <body>
     <h1><a href="index.html"> WHAT AM I </a></h1>
-    <ol>
-        <li><a href="1.html">dentist</a></li>
-        <li><a href="2.html">tennis</a></li>
-        <li><a href="3.html">game</a></li>
-        <li>app maker</li>
-        <li>math</li>
-        <li>invest</li>
-        <li>read</li>
-    </ol>
-    <h2> DENTIST </h2>
-    <img src="orthodontics.jpg" />
-    <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">
-        <p>2012.3 서울대학교치의학대학원 입학</p>
-    </a>
-    <p style="margin-top:45px;">2016.2 서울대학교치의학대학원 졸업</p>
-    2016.4 치과공중보건의사 복무 시작
-    <br>
-    2019.4 치과공중보건의사 복무 만료
-    2019.5 서울아름다운치과 원장
-    2019.8 통합치의학과 전문의
-    <strong>2019.10 <u>서울한스치과</u> 대표원장</strong>
+    <div id="grid">
+        <ol id="tab">
+            <li><a href="1.html" class="open" id="now">dentist</a></li>
+            <li><a href="2.html" class="open">tennis</a></li>
+            <li><a href="3.html" class="open">game</a></li>
+            <li>app maker</li>
+            <li>math</li>
+            <li>invest</li>
+            <li>read</li>
+        </ol>
+        <div>
+            <h2> DENTIST </h2>
+            <img src="orthodontics.jpg" />
+            <p>2012.3 서울대학교치의학대학원 입학</p>
+            <p>2016.2 서울대학교치의학대학원 졸업</p>
+            <p>2016.4 치과공중보건의사 복무 시작</p>
+            <p>2019.4 치과공중보건의사 복무 만료</p>
+            <p>2019.5 서울아름다운치과 원장</p>
+            <p>2019.8 통합치의학과 전문의</p>
+            <p><strong>2019.10 <u>서울한스치과</u> 대표원장</strong></p>
+        </div>
+    </div>
 </body>
 
 </html>
